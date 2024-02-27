@@ -30,3 +30,4 @@ this absolute hack of patching hive and building spark from source)
 
 Many thanks to @bbenzikry for open sourcing their solution to build Spark 3 +
 Glue compatible docker images. This project builds on their work.
+
