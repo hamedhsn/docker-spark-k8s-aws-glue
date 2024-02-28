@@ -14,7 +14,7 @@ ARG container_tag="${container_tag_prefix}${container_tag_suffix}"
 
 build-deps:
   # use python base image because spark build process requires python
-  FROM python:3.7-slim-stretch
+  FROM python:3.9-slim-stretch
 
   # TODO: use openjdk-11
   RUN apt-get update \
